@@ -1,8 +1,8 @@
-#xrandr --setprovideroutputsource modesetting NVIDIA-0
-#xrandr --auto
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
 
-xrandr --output HDMI2 --left-of DP1
-xrandr --output eDP1 --left-of HDMI2
+xrandr --output HDMI-1-2 --left-of DP-1-1
+xrandr --output eDP-1-1 --left-of HDMI-1-2
 
 #if [ "$(xsetwacom list devices)" ]; then
 #  xsetwacom set 12 Button 2 "pan"
