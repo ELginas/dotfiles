@@ -9,7 +9,7 @@ if [ "$(xsetwacom list devices)" ]; then
   xsetwacom set 12 PanScrollThreshold 200
   xsetwacom set 20 Button 2 "pan"
   xsetwacom set 20 PanScrollThreshold 200
-  xsetwacom -v set 12 MapToOutput HEAD-2
+  xsetwacom set 12 MapToOutput HEAD-2
 fi
 
 flameshot&
