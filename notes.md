@@ -24,4 +24,16 @@ F: sudo systemctl enable dhcpcd && sudo systemctl start dhcpcd (hopefully)
 I: inaccurate time
 F: timedatectl set-timezone Europe/Vilnius
 
+I: nouveau driver still in use when nvidia drivers are installed, even after reboot
+F: rmmod nouveau
+
 /etc/X11/xorg.conf.d/10-tablet.conf
+
+TODO:
+- move modded qtile to AUR?
+- nvidia drivers
+- firefox better config
+- installation scripts?
+- try out official arch installation scripts
+- proper helix setup on root
+- try out wayland
