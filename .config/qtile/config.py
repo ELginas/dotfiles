@@ -85,9 +85,9 @@ keys = [
     Key([], "XF86AudioPlay", lazy.spawn("playerctl play-pause"), desc="Play/Pause player"),
     Key([], "XF86AudioNext", lazy.spawn("playerctl next"), desc="Skip to next"),
     Key([], "XF86AudioPrev", lazy.spawn("playerctl previous"), desc="Skip to previous"),
-    Key([mod, "shift"], "f1", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput HDMI2')),
-    Key([mod, "shift"], "f2", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput DP1')),
-    Key([mod, "shift"], "f3", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput eDP1')),
+    Key([mod, "shift"], "f1", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput HEAD-2')),
+    Key([mod, "shift"], "f2", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput HEAD-1')),
+    Key([mod, "shift"], "f3", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput HEAD-0')),
 ]
 
 groups = [Group(i) for i in "123456789"]
