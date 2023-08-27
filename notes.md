@@ -18,4 +18,10 @@ F: make sure flameshot is started as a bg process
 I: media keys not working
 F: sudo pacman -S playerctl
 
+I: internet sometimes not working
+F: sudo systemctl enable dhcpcd && sudo systemctl start dhcpcd (hopefully)
+
+I: inaccurate time
+F: timedatectl set-timezone Europe/Vilnius
+
 /etc/X11/xorg.conf.d/10-tablet.conf
