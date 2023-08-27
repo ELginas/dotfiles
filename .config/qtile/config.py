@@ -165,7 +165,6 @@ screens = [
                 widget.Systray(),
                 widget.Spacer(),
                 widget.NvidiaSensors(),
-                widget.Memory(format="{MemUsed: .2f}{mm}", measure_mem='G'),
                 widget.Clock(format="%I:%M %p"),
                 widget.QuickExit(fmt="[X]", countdown_start=0),
             ],
