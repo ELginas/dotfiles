@@ -5,3 +5,4 @@ export ANDROID_HOME=/opt/android-sdk
 export NDK_HOME=/opt/android-ndk
 export GPG_TTY=$(tty)
 export EDITOR=helix
+export PATH=~/.cargo/bin:$PATH
