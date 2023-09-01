@@ -6,3 +6,6 @@ export NDK_HOME=/opt/android-ndk
 export GPG_TTY=$(tty)
 export EDITOR=helix
 export PATH=~/.cargo/bin:$PATH
+export CC=clang
+export CXX=clang++
+export ANDROID_HOME=/opt/android-sdk
