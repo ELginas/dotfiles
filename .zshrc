@@ -9,3 +9,4 @@ export PATH=~/.cargo/bin:$PATH
 export CC=clang
 export CXX=clang++
 export ANDROID_HOME=/opt/android-sdk
+export PATH=~/go/bin:$PATH
