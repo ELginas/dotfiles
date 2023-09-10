@@ -201,6 +201,8 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),  # ssh-askpass
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
+        Match(wm_class="Godot_Engine") # Godot tends to make a lot of popup 
+                          # windows and play window really cares about size
     ]
 )
 auto_fullscreen = True
