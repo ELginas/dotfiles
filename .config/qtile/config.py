@@ -88,6 +88,7 @@ keys = [
     Key([mod, "shift"], "f1", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput HEAD-2')),
     Key([mod, "shift"], "f2", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput HEAD-1')),
     Key([mod, "shift"], "f3", lazy.spawn('xsetwacom set "HUION Huion Tablet Pen stylus" MapToOutput HEAD-0')),
+    Key([mod], "f", lazy.window.toggle_floating(), desc="Toggle floating"),
 ]
 
 groups = [Group(i) for i in "123456789"]
