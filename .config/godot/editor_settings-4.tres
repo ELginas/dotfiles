@@ -1,9 +1,33 @@
-[gd_resource type="EditorSettings" format=3]
+[gd_resource type="EditorSettings" load_steps=5 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_p4dn0"]
+device = -1
+ctrl_pressed = true
+keycode = 49
+unicode = 49
+
+[sub_resource type="InputEventKey" id="InputEventKey_d1ng5"]
+device = -1
+ctrl_pressed = true
+keycode = 50
+unicode = 50
+
+[sub_resource type="InputEventKey" id="InputEventKey_qhv35"]
+device = -1
+ctrl_pressed = true
+keycode = 51
+unicode = 51
+
+[sub_resource type="InputEventKey" id="InputEventKey_ql1yx"]
+device = -1
+ctrl_pressed = true
+keycode = 81
+unicode = 113
 
 [resource]
 interface/editor/display_scale = 7
 interface/editor/custom_display_scale = 0.9
-interface/editor/code_font_size = 13.3333
+interface/editor/code_font_size = 13
 interface/editor/code_font = "/usr/share/fonts/TTF/FiraCodeNerdFontMono-Regular.ttf"
 interface/editor/separate_distraction_mode = true
 interface/theme/preset = "Custom"
@@ -159,6 +183,21 @@ shortcuts = [{
 }, {
 "name": "script_text_editor/capitalize",
 "shortcuts": []
+}, {
+"name": "editor/file_quit",
+"shortcuts": []
+}, {
+"name": "editor/editor_2d",
+"shortcuts": [SubResource("InputEventKey_p4dn0")]
+}, {
+"name": "editor/editor_3d",
+"shortcuts": [SubResource("InputEventKey_d1ng5")]
+}, {
+"name": "editor/editor_script",
+"shortcuts": [SubResource("InputEventKey_qhv35")]
+}, {
+"name": "editor/distraction_free_mode",
+"shortcuts": [SubResource("InputEventKey_ql1yx")]
 }]
 metadata/script_setup_templates_dictionary = {
 "AnimationPlayer": "0NodeDefault",
