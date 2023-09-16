@@ -1,4 +1,4 @@
-[gd_resource type="EditorSettings" load_steps=5 format=3]
+[gd_resource type="EditorSettings" load_steps=6 format=3]
 
 [sub_resource type="InputEventKey" id="InputEventKey_p4dn0"]
 device = -1
@@ -23,6 +23,12 @@ device = -1
 ctrl_pressed = true
 keycode = 81
 unicode = 113
+
+[sub_resource type="InputEventKey" id="InputEventKey_ypxpk"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 69
+unicode = 101
 
 [resource]
 interface/editor/display_scale = 7
@@ -198,12 +204,18 @@ shortcuts = [{
 }, {
 "name": "editor/distraction_free_mode",
 "shortcuts": [SubResource("InputEventKey_ql1yx")]
+}, {
+"name": "scene_tree/attach_script",
+"shortcuts": [SubResource("InputEventKey_ypxpk")]
 }]
 metadata/script_setup_templates_dictionary = {
 "AnimationPlayer": "0NodeDefault",
+"CharacterBody2D": "0CharacterBody2DBasic Movement",
 "Control": "0NodeDefault",
 "Line2D": "0NodeDefault",
 "Marker2D": "0NodeDefault",
-"Node": "0NodeDefault"
+"Node": "0NodeDefault",
+"Node2D": "0NodeDefault",
+"StaticBody2D": "0NodeDefault"
 }
 metadata/export_template_download_directory = "/home/user/.cache/godot"
