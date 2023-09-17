@@ -36,6 +36,7 @@ interface/editor/custom_display_scale = 0.9
 interface/editor/code_font_size = 13
 interface/editor/code_font = "/usr/share/fonts/TTF/FiraCodeNerdFontMono-Regular.ttf"
 interface/editor/separate_distraction_mode = true
+interface/editor/single_window_mode = true
 interface/theme/preset = "Custom"
 interface/theme/base_color = Color(0, 0, 0, 1)
 interface/theme/accent_color = Color(0.976471, 0.552941, 0.454902, 1)
@@ -181,15 +182,6 @@ text_editor/theme/highlighting/gdscript/annotation_color = Color(1, 0.7, 0.45, 1
 text_editor/theme/highlighting/gdscript/string_name_color = Color(1, 0.76, 0.65, 1)
 text_editor/help/sort_functions_alphabetically = true
 shortcuts = [{
-"name": "script_text_editor/convert_to_uppercase",
-"shortcuts": []
-}, {
-"name": "script_text_editor/convert_to_lowercase",
-"shortcuts": []
-}, {
-"name": "script_text_editor/capitalize",
-"shortcuts": []
-}, {
 "name": "editor/file_quit",
 "shortcuts": []
 }, {
@@ -214,7 +206,8 @@ metadata/script_setup_templates_dictionary = {
 "Control": "0NodeDefault",
 "Line2D": "0NodeDefault",
 "Marker2D": "0NodeDefault",
-"Node": "0NodeDefault",
+"MultiplayerSynchronizer": "0NodeDefault",
+"Node": "0ObjectEmpty",
 "Node2D": "0NodeDefault",
 "StaticBody2D": "0NodeDefault"
 }
