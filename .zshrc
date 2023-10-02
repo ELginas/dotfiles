@@ -10,3 +10,4 @@ export CC=clang
 export CXX=clang++
 export ANDROID_HOME=/opt/android-sdk
 export PATH=~/go/bin:$PATH
+export PATH=$(echo "$PATH" | sed 's/:\/home\/user\/qtile\/.venv\/bin//')

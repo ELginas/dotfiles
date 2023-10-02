@@ -209,6 +209,7 @@ metadata/script_setup_templates_dictionary = {
 "MultiplayerSynchronizer": "0NodeDefault",
 "Node": "0ObjectEmpty",
 "Node2D": "0NodeDefault",
-"StaticBody2D": "0NodeDefault"
+"StaticBody2D": "0NodeDefault",
+"TileMap": "0NodeDefault"
 }
 metadata/export_template_download_directory = "/home/user/.cache/godot"

@@ -37,3 +37,4 @@ TODO:
 - try out official arch installation scripts
 - proper helix setup on root
 - try out wayland
+- fix nautilus being 3rd in mime cache
