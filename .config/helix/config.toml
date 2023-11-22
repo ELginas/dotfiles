@@ -3,6 +3,7 @@ theme = "monokai_pro_ristretto"
 
 [editor]
 line-number = "relative"
+soft-wrap.enable = true
 
 [keys.insert]
 C-k = "normal_mode"
