@@ -1,4 +1,4 @@
-[gd_resource type="EditorSettings" load_steps=6 format=3]
+[gd_resource type="EditorSettings" load_steps=7 format=3]
 
 [sub_resource type="InputEventKey" id="InputEventKey_p4dn0"]
 device = -1
@@ -29,6 +29,12 @@ device = -1
 ctrl_pressed = true
 physical_keycode = 69
 unicode = 101
+
+[sub_resource type="InputEventKey" id="InputEventKey_e70pr"]
+device = -1
+alt_pressed = true
+physical_keycode = 65
+unicode = 97
 
 [resource]
 interface/editor/display_scale = 7
@@ -209,6 +215,9 @@ shortcuts = [{
 }, {
 "name": "scene_tree/attach_script",
 "shortcuts": [SubResource("InputEventKey_ypxpk")]
+}, {
+"name": "animation_editor/apply_reset",
+"shortcuts": [SubResource("InputEventKey_e70pr")]
 }]
 metadata/script_setup_templates_dictionary = {
 "AnimationPlayer": "0NodeDefault",
@@ -219,6 +228,7 @@ metadata/script_setup_templates_dictionary = {
 "MultiplayerSynchronizer": "0NodeDefault",
 "Node": "0ObjectEmpty",
 "Node2D": "0NodeDefault",
+"Sprite2D": "0NodeDefault",
 "StaticBody2D": "0NodeDefault",
 "TileMap": "0NodeDefault"
 }
