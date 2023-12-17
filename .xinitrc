@@ -12,7 +12,7 @@ if [ "$(xsetwacom list devices)" ]; then
   xsetwacom set 12 MapToOutput HEAD-2
 fi
 
-flameshot&
+xsetroot -cursor_name arrow
 
-source ~/qtile/.venv/bin/activate
-~/qtile/bin/qtile start
+flameshot&
+exec ~/penrose-rs/target/release/penrose-rs &> ~/penrose-rs/.penrose.log
