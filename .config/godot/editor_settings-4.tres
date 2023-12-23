@@ -193,10 +193,6 @@ text_editor/theme/highlighting/comment_markers/notice_color = Color(0.56, 0.67, 
 text_editor/theme/highlighting/comment_markers/critical_list = "ALERT,ATTENTION,CAUTION,CRITICAL,DANGER,SECURITY"
 text_editor/theme/highlighting/comment_markers/warning_list = "BUG,DEPRECATED,FIXME,HACK,TASK,TBD,TODO,WARNING"
 text_editor/theme/highlighting/comment_markers/notice_list = "INFO,NOTE,NOTICE,TEST,TESTING"
-filesystem/import/blender/rpc_port = 6011
-filesystem/import/blender/rpc_server_uptime = 5
-filesystem/import/blender/blender3_path = ""
-filesystem/import/fbx/fbx2gltf_path = ""
 shortcuts = [{
 "name": "editor/file_quit",
 "shortcuts": []
