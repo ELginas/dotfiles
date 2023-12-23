@@ -4,6 +4,25 @@ theme = "monokai_pro_ristretto"
 [editor]
 line-number = "relative"
 soft-wrap.enable = true
+scrolloff = 2
+bufferline = "always"
 
 [keys.insert]
-C-k = "normal_mode"
+C-c = "normal_mode"
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
+
+[editor.statusline]
+right = ["diagnostics", "selections", "register", "version-control", "position", "file-encoding"]
+
+[editor.lsp]
+display-messages = true
+
+[editor.file-picker]
+hidden = false

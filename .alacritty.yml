@@ -4,5 +4,3 @@ window:
   dynamic_title: false
 font:
   size: 9.0
-key_bindings:
-  - { key: Return, mods: Alt, action: ToggleFullscreen }
