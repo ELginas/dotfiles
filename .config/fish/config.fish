@@ -12,3 +12,5 @@ fish_add_path /opt/cuda/bin/
 abbr -a -- cb 'cargo c && cargo b --release'
 set -x ANDROID_NDK ~/Android/Sdk/ndk/26.1.10909125/
 set -x ANDROID_HOME ~/Android/Sdk/
+bind \co 'for cmd in less more; if command -q $cmd; fish_commandline_append " &| $cmd"; break; end; end'
+
